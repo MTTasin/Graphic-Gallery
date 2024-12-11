@@ -33,7 +33,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className="p-10 bg-black text-white">
+    <footer className=" p-10 bg-gray-800 text-white">
       <div className="flex flex-col justify-center items-center">
         <div className="bg-gray-500 text-black text-sm md:text-xl rounded-full px-5 py-2">
           Get in touch

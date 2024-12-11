@@ -4,13 +4,13 @@ import { NavLink } from "react-router-dom";
 export default function NavBar() {
   return (
     <Fragment>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-black text-white fixed z-[1]">
         <div className="navbar-start">
-          <div className="dropdown">
+          <div className="dropdown text-black">
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost btn-circle"
+              className="btn btn-ghost btn-circle text-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ export default function NavBar() {
           </div>
         </div>
         <div className="navbar-center">
-          <NavLink to="/" className="btn btn-ghost text-5xl monoton-regular">Graphics Gallery</NavLink>
+          <NavLink to="/" className="btn btn-ghost md:text-4xl text-xl monoton-regular">Graphics Gallery</NavLink>
         </div>
         <div className="navbar-end">
           <img src="/favicon.png" alt="" className="w-10" />
