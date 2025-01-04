@@ -8,7 +8,7 @@ from .models import Gallery
 @admin.register(Gallery)
 class GalleryAdmin(admin.ModelAdmin):
     model = Gallery
-    list_display = ["title", "category"]
+    list_display = ["title", "category", "able_to_book"]
     list_display_links = ["title", "category"]
     list_filter = ["category"]
     search_fields = ["title", "category"]

@@ -61,6 +61,8 @@ export default function Home() {
     );
   });
 
+  console.log(data);
+
   const modals = data.map((item) => {
     return (
       <dialog id={item.id} className="modal">
@@ -69,6 +71,7 @@ export default function Home() {
             <div>
               <p className="text-2xl">{item.title}</p>
               <p>Size: {item.size}</p>
+              <p>Is able to make book: {item.able_to_book ? "Yes" : "No"}</p>
             </div>
             <div className="modal-action">
               <form method="dialog">
