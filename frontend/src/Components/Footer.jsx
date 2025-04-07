@@ -76,7 +76,7 @@ export default function Footer() {
         </div>
         <div className="flex justify-center items-center gap-10 my-5">
           <span className="hover:text-gray-500">
-            <a href="https://www.facebook.com/MD.TahmimTasin" target="_blank"><LuFacebook className="text-3xl" /></a>
+            <a href="https://www.facebook.com/M.T.Tasin20" target="_blank"><LuFacebook className="text-3xl" /></a>
           </span>
           <span className="hover:text-gray-500">
             <a href="https://wa.me/message/QYT5BFUE3NYCP1?src=qr" target="_blank"><FaWhatsapp className="text-3xl" /></a>
